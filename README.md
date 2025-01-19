@@ -2,13 +2,13 @@
 
 This project showcases a Multimodal Retrieval-Augmented Generation (RAG) pipeline that combines the strengths of Multimodal LLms with Multimodal Vector Search and helps you chat with your PDFs.
 
-1. This project uses ![Unstructured](https://unstructured.io/) to parse images, text, and tables from documents (PDFs). 
+1. This project uses [Unstructured](https://unstructured.io/) to parse images, text, and tables from documents (PDFs). 
 2. GPT-4o-mini is used for summarization of the text, tables and images.
-3. A Multi-Vector Retriever with ![Chroma DB](https://www.trychroma.com/) is used to store raw text and images along with their summaries for retrieval.
+3. A Multi-Vector Retriever with [Chroma DB](https://www.trychroma.com/) is used to store raw text and images along with their summaries for retrieval.
 4. Finally, the top-k retreived documents (text, tables and images) are used to generate the response using the GPT-4o-mini model.
 
 ## Gradio App 
-Try the demo yourself ![here!](https://huggingface.co/spaces/AseemD/MultiModalRAG)
+Try the demo yourself [here!](https://huggingface.co/spaces/AseemD/MultiModalRAG)
 
 ![Gradio App](demo_images/app_demo.gif)
 
