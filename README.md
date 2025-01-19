@@ -7,8 +7,8 @@ This project showcases a Multimodal Retrieval-Augmented Generation (RAG) pipelin
 3. A Multi-Vector Retriever with ![Chroma DB](https://www.trychroma.com/) is used to store raw text and images along with their summaries for retrieval.
 4. Finally, the top-k retreived documents (text, tables and images) are used to generate the response using the GPT-4o-mini model.
 
-## Gradio App 
-![Try it yourself!](https://huggingface.co/spaces/AseemD/MultiModalRAG)
+## Gradio App ![Website](https://huggingface.co/spaces/AseemD/MultiModalRAG)
+
 ![Gradio App](demo_images/app_demo.gif)
 
 ## Repository Structure
