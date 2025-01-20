@@ -16,19 +16,24 @@ Try the demo yourself [here!](https://huggingface.co/spaces/AseemD/MultiModalRAG
 
 ```
 .
-├── data_prep.ipynb             # Notebook for extracting data and creating the vector store (Linux only)
-├── RAG_demo.ipynb              # Demo Notebook for Multimodal RAG
-├── app.py                      # Gradio app                 
+├── images/
+│   └── ...
+|           
+├── demo_images/                 
+│   ├── ...
+|    
 ├── chroma_langchain_db/        # Chroma DB for retrieval
-│   ├── ...    
+│   ├── ...
+|
 ├── utils/
 │   └── app_utils.py            # Utils for the gradio app
+|
 ├── pdfs/
 │   └── paper.pdf               # PDF used for RAG (LongNet paper)
-├── images/
-│   └── ...              
-├── demo_images/                 
-│   ├── ...            
+|
+├── data_prep.ipynb             # Notebook for extracting data and creating the vector store (Linux only)
+├── RAG_demo.ipynb              # Demo Notebook for Multimodal RAG
+├── app.py                      # Gradio app         
 └── README.md                   # Project documentation 
 
 ```
